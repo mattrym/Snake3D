@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{e65f2e74-2344-4d46-981b-272183c3d1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\illumination">
+      <UniqueIdentifier>{9ac00bb1-c09e-4a03-8f2a-88d80b76704d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\models">
+      <UniqueIdentifier>{63034833-c972-48ef-9e5f-682f8d95c200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{1d70d1d7-ae81-47ea-bee6-5f6071dc2c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\illumination">
+      <UniqueIdentifier>{881cad8d-ed22-4942-8646-f50135c3a998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\structures">
+      <UniqueIdentifier>{8d0608ef-58b5-4b9c-8661-309bde4ad054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\models">
+      <UniqueIdentifier>{8c80e421-ac2a-42c3-af9f-bbabdd7d75e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{05f5a732-ed22-465f-af89-a6662f42ceff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{ba6c21ac-9ece-484b-a6dd-a2d1af064b2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\illumination\Lights.h">
+      <Filter>Header Files\graphics\illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\illumination\Reflectors.h">
+      <Filter>Header Files\graphics\illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\illumination\Shaders.h">
+      <Filter>Header Files\graphics\illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\models\MeshBuilder.h">
+      <Filter>Header Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\models\Model.h">
+      <Filter>Header Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\models\SolidFactory.h">
+      <Filter>Header Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\structures\MaterialInfo.h">
+      <Filter>Header Files\graphics\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\structures\Mesh.h">
+      <Filter>Header Files\graphics\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\structures\Pixel.h">
+      <Filter>Header Files\graphics\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\structures\Triangle.h">
+      <Filter>Header Files\graphics\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\structures\Vertex.h">
+      <Filter>Header Files\graphics\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\Camera.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\Renderer.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\Animation.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\SceneCreator.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\Snake.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\illumination\Lights.cpp">
+      <Filter>Source Files\graphics\illumination</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\illumination\Reflectors.cpp">
+      <Filter>Source Files\graphics\illumination</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\illumination\Shaders.cpp">
+      <Filter>Source Files\graphics\illumination</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\models\MeshBuilder.cpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\models\Model.cpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\models\SolidFactory.cpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Camera.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Renderer.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\Animation.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\Snake.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\SceneCreator.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
